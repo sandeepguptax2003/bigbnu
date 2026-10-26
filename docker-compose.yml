@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      CACHE_TTL_SECONDS: "21600"
+    restart: unless-stopped
