@@ -2,7 +2,7 @@
 
 A web app for a UK utility's day-ahead power desk. For any period in January 2026 it shows the national wind forecast that was available at decision time, compares it with actual generation, and turns the measured error into a procurement buffer.
 
-**Live app:** _&lt;deployment URL&gt;_
+**Live app:** https://bigbnu.vercel.app · **API docs:** https://bigbnu.vercel.app/docs
 
 ![stack](https://img.shields.io/badge/React-19-61dafb) ![stack](https://img.shields.io/badge/FastAPI-0.115-009688) ![stack](https://img.shields.io/badge/Python-3.12-3776ab) ![stack](https://img.shields.io/badge/Docker-ready-2496ed)
 
